@@ -1,11 +1,17 @@
 # NotePad
 This is an AndroidStudio rebuild of google SDK sample NotePad
-三、在笔记本列表中添加时间戳
+
+在笔记本列表中添加时间戳
+
 第一步、找到NotesList中的添加视图的语句
+
 ![image](https://user-images.githubusercontent.com/62132538/119312565-1ac9f180-bca5-11eb-9bc9-66296d7fd316.png)
 前面我们学过，SimpleCursoraAdapter是用来创建ListView的方法之一，这里可以看到dataColumns和viewIDs，分别是数据和视图id。
+
 那么我们第一步：
+
 在视图中添加一个文本框：
+
 在原有的基础上添加一个垂直的线性布局，和一个文本视图，如图所示：
 ![image](https://user-images.githubusercontent.com/62132538/119312602-26b5b380-bca5-11eb-991e-475542d751b0.png)
 
@@ -43,10 +49,16 @@ This is an AndroidStudio rebuild of google SDK sample NotePad
 于是时间戳功能得以实现（成果如图）：
 ![image](https://user-images.githubusercontent.com/62132538/119312758-5a90d900-bca5-11eb-86f0-ad31cfc0c38c.png)
 
- 新建笔记：
+
+新建笔记：
+
 ![image](https://github.com/youurs/Notepad1/blob/master/Photo/Snipaste_2021-05-24_15-08-26.jpg)
+
 创建成功：
+
 ![image](https://github.com/youurs/Notepad1/blob/master/Photo/Snipaste_2021-05-24_15-09-17.jpg)
+
 删除q1313笔记:
+
 ![image](https://github.com/youurs/Notepad1/blob/master/Photo/Snipaste_2021-05-24_15-09-40.jpg)
 
