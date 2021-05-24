@@ -1,7 +1,19 @@
 # NotePad
 This is an AndroidStudio rebuild of google SDK sample NotePad
 
-在笔记本列表中添加时间戳
+新建笔记：
+
+![image](https://github.com/youurs/Notepad1/blob/master/Photo/Snipaste_2021-05-24_15-08-26.jpg)
+
+创建成功（带有时间戳）：
+
+![image](https://github.com/youurs/Notepad1/blob/master/Photo/Snipaste_2021-05-24_15-09-17.jpg)
+
+删除q1313笔记:
+
+![image](https://github.com/youurs/Notepad1/blob/master/Photo/Snipaste_2021-05-24_15-09-40.jpg)
+
+在笔记本列表中添加时间戳的步骤：
 
 第一步、找到NotesList中的添加视图的语句
 
@@ -47,18 +59,8 @@ This is an AndroidStudio rebuild of google SDK sample NotePad
   values.put(NotePad.Notes.COLUMN_NAME_MODIFICATION_DATE,sf.format(new Date()));
 
 于是时间戳功能得以实现（成果如图）：
-![image](https://user-images.githubusercontent.com/62132538/119312758-5a90d900-bca5-11eb-86f0-ad31cfc0c38c.png)
-
-
-新建笔记：
-
-![image](https://github.com/youurs/Notepad1/blob/master/Photo/Snipaste_2021-05-24_15-08-26.jpg)
-
-创建成功：
-
 ![image](https://github.com/youurs/Notepad1/blob/master/Photo/Snipaste_2021-05-24_15-09-17.jpg)
 
-删除q1313笔记:
 
-![image](https://github.com/youurs/Notepad1/blob/master/Photo/Snipaste_2021-05-24_15-09-40.jpg)
+
 
