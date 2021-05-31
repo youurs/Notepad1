@@ -1,5 +1,4 @@
 # NotePad
-This is an AndroidStudio rebuild of google SDK sample NotePad
 
 新建笔记：
 
