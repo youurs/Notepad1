@@ -1,17 +1,5 @@
 # NotePad
 
-新建笔记：
-
-![image](https://github.com/youurs/Notepad1/blob/master/Photo/Snipaste_2021-05-24_15-08-26.jpg)
-
-创建成功（带有时间戳）：
-
-![image](https://github.com/youurs/Notepad1/blob/master/Photo/Snipaste_2021-05-24_15-09-17.jpg)
-
-删除q1313笔记:
-
-![image](https://github.com/youurs/Notepad1/blob/master/Photo/Snipaste_2021-05-24_15-09-40.jpg)
-
 在笔记本列表中添加时间戳的步骤：
 
 第一步、找到NotesList中的添加视图的语句
@@ -58,8 +46,19 @@
   values.put(NotePad.Notes.COLUMN_NAME_MODIFICATION_DATE,sf.format(new Date()));
 
 于是时间戳功能得以实现（成果如图）：
-![image](https://github.com/youurs/Notepad1/blob/master/Photo/Snipaste_2021-05-24_15-09-17.jpg)
+![image](Photo/Snipaste_2021-05-24_15-09-17.jpg)
 
 
+新建笔记：
+
+![image](Photo/Snipaste_2021-05-24_15-08-26.jpg)
+
+创建成功（带有时间戳）：
+
+![image](Photo/Snipaste_2021-05-24_15-09-17.jpg)
+
+删除q1313笔记:
+
+![image](Photo/Snipaste_2021-05-24_15-09-40.jpg)
 
 
